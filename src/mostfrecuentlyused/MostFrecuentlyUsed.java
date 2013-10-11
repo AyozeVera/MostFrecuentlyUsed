@@ -6,7 +6,7 @@ public class MostFrecuentlyUsed {
     
     private HashMap<Integer, Integer>frecuencyMap = new HashMap <Integer, Integer>();
     private int[] array;
-    private final HashMap<Integer, Integer> frecuencyHashMap;
+    private HashMap<Integer, Integer> frecuencyHashMap;
    
     public MostFrecuentlyUsed(int[]array) {
         this.array = array;
